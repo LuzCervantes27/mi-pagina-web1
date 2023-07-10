@@ -1,26 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi Página Web</title>
+    <title>Mi Portafolio Personal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            background-color: #F7DC6F;
+            color: #333;
         }
 
         h1 {
             color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #666;
+            margin-bottom: 10px;
         }
 
         p {
             color: #666;
+            line-height: 1.5;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            background-color: #00BFFF;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .contact-info li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>¡Hola! Esta es una página web de ejemplo.</p>
-    <p>Puedes personalizarla añadiendo más contenido y estilos.</p>
+    <h1>Mi Portafolio Personal</h1>
+    <div class="header">
+        <img src="https://images.unsplash.com/photo-1602080858428-57174f9431cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Cabecera">
+        <style>
+            .header img {
+                width: 300px; /* Ancho de la imagen */
+                height: auto; /* Mantener la proporción de aspecto */
+                border-radius: 20%; /* opcional agregar bordes redondeados a la imagen */
+            }
+        </style>
+               
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Biografía</h2>
+        <div class="section-content">
+            <p>Mi biografía aquí. Puedes escribir una breve descripción sobre ti, tus intereses, experiencia, etc.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="section-content">
+            <ul>
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="section-content">
+            <ul>
+                <li>Proyecto 1</li>
+                <li>Proyecto 2</li>
+                <li>Proyecto 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Contacto</h2>
+        <div class="section-content">
+            <ul class="contact-info">
+                <li><strong>Email:</strong> info@example.com</li>
+                <li><strong>Teléfono:</strong> +1 234 567 890</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/">Mi perfil en LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
+
+
+
